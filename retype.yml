@@ -1,0 +1,20 @@
+input: .
+output: .retype
+
+url: fimo.org # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: fimo
+  label: CLI Tools
+  logo: static/fimo.png
+
+links:
+  - text: Download
+    link: https://github.com/fimo-org/fimo
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

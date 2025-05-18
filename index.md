@@ -1,6 +1,6 @@
-# 🧩 fimo: File Mongo Data Tools
+# 🧩 fimo: File Mongo CLI Tools
 
-**Fimo** is a modular, Rust-based CLI toolkit for high-performance MongoDB workflows — including large-scale imports, streaming sync, and intelligent upserts.
+**fimo** is a modular, Rust-based CLI toolkit for high-performance MongoDB workflows — including large-scale imports, streaming sync, and intelligent upserts.
 
 ---
 
@@ -91,6 +91,12 @@ fimo-sync \
 
 ```bash
 fimo-sync \
+  --source-uri mongodb://localhost:27017 \
+  --source-db source_db \
+  --source-collection source_col \
+  --target-uri mongodb://localhost:27017 \
+  --target-db target_db \
+  --target-collection target_col \
   --sync-field _id \
   --resume-value "64fc40e8e1234567890abcde" \
   --resume-type objectid \

@@ -242,7 +242,7 @@ Fimo is fully compatible with RFC 4180:
 
 ## ⚠️ Disclaimer
 
-**fimo-sync is not affiliated with MongoDB Inc.**  
+**fimo-csv is not affiliated with MongoDB Inc.**  
 MongoDB® is a registered trademark of MongoDB Inc.
 
 ---

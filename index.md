@@ -1,4 +1,9 @@
-# 🧩 fimo: File Mongo CLI Tools
+---
+label: Home
+icon: home
+---
+
+# fimo: File Mongo CLI Tools
 
 **fimo** is a modular, Rust-based CLI toolkit for high-performance MongoDB workflows — including large-scale imports, streaming sync, and intelligent upserts.
 
